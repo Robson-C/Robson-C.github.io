@@ -7,9 +7,8 @@
         background-color: rgb(255, 255, 255);
     }
     main{
-        width: calc(100% - 231px);
-        float: right;
-        border-left: 1px solid black;
+        width: calc(90% - 231px);
+        float: left;
         padding: 15px;
     }
 /*End Geral*/
@@ -48,6 +47,7 @@
             text-align: left;
             float: left;
             width: 200px;
+            border-right: 1px solid black;
         }
         #lateral ul   {
             list-style: none;
@@ -74,13 +74,14 @@
     }
     .exemplo    {
         border: 1px solid black;
-        padding: 5px;
+        padding: 5px 5px 5px 50px;
     }
-    strong{font-size: 120%;}
+    #p  {margin-bottom: 15px;}
+    strong  {font-size: 120%;}
     .destaque   {color: red;}
     .tdestaque1  {color: rgb(44, 116, 175);}
     .tdestaque2  {color: rgb(209, 119, 1);}
-    .bg1{background-color: rgb(207, 206, 206);}
-    .bg2{background-color: rgba(158, 229, 235, 0.568);}
+    .bg1    {background-color: rgb(207, 206, 206);}
+    .bg2    {background-color: rgba(158, 229, 235, 0.568);}
 /*End Main*/
 
